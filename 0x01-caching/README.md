@@ -1,1 +1,1 @@
-# caching consept and implementation using python
+# caching consept and implementation using python, The LIFO (last in first out consept is very intersting)
