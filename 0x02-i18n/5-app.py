@@ -41,7 +41,9 @@ def before_request():
 
 @babel.localeselector
 def get_locale():
+
     """locale selector determining lang use for template"""
+  
     loc= request.args.get('locale')
     if loc and loc in app.config['LANGUAGES']:
         return loc
